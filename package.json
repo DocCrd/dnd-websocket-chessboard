@@ -9,7 +9,8 @@
     "react-dnd": "^7.3.2",
     "react-dnd-html5-backend": "^7.2.0",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-websocket": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.6"
+  }
 }

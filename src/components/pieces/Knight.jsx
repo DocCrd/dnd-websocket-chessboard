@@ -3,7 +3,7 @@ import { DragSource } from "react-dnd";
 import ItemTypes from "../constants/ItemTypes";
 
 // draggable object
-const knightSource = {
+export const knightSource = {
   beginDrag(props) {
     return {};
   },
